@@ -20,6 +20,12 @@ pixelCanvas.addEventListener('click', function(pick) {
 	}
 })
 
+/**
+	* @description Generates a grid of squares once height and width are submitted in the form.
+	* @param height value returned by submitted form
+	* @param width value returned by  submitted form
+*/
+
 function makeGrid() {
 	for (i = 0; i < height.value; i++) {
 		const row = pixelCanvas.insertRow(0);
